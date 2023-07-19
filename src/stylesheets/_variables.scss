@@ -25,8 +25,8 @@ $fluid-bp: calc((($fluid-screen) - ($fluid-min-width) / 16 * 1rem) / (($fluid-ma
     }
     
   $step--2: clamp(0.56rem, calc(0.54rem + 0.12vw), 0.64rem);
-  $step--1: clamp(0.70rem, calc(0.62rem + 0.43vw), 1.13rem);
-  $step-0:  clamp(0.69rem, calc(0.56rem + 0.63vw), 1.31rem);
+  $step--1: clamp(0.75rem, calc(0.62rem + 0.43vw), 1.13rem);
+  $step-0:  clamp(0.85rem, calc(0.56rem + 0.63vw), 1.31rem);
   $step-1: clamp(1.17rem, calc(1.04rem + 0.66vw), 1.83rem);
   $step-2: clamp(1.37rem, calc(1.11rem + 1.30vw), 2.67rem);
   $step-3: clamp(1.71rem, calc(1.52rem + 0.96vw), 2.66rem);
