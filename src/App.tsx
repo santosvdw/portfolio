@@ -7,7 +7,6 @@ import Code from './components/Code';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 //
-import React from 'react';
 import './stylesheets/App.scss';
 import './stylesheets/typography.scss';
 
