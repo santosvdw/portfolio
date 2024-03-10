@@ -1,0 +1,49 @@
+$white: #FFFFFF;
+$secondary-clr: #6096BA;
+$tertiary-clr: hsl(204, 49%, 75%);
+
+
+// 
+$bg-color: #0A0A0A;
+$grey: #1E1E1E;
+
+// 
+
+
+// Responsiveness
+
+$fluid-min-width: 320;
+$fluid-max-width: 1920;
+
+$fluid-screen: 100vw;
+$fluid-bp: calc((($fluid-screen) - ($fluid-min-width) / 16 * 1rem) / (($fluid-max-width) - ($fluid-min-width)));
+
+@media screen and (min-width: 1920px) {
+    :root {
+        $fluid-screen: calc(($fluid-max-width) * 1px);
+    }
+}
+
+$step--2: clamp(0.56rem, calc(0.54rem + 0.12vw), 0.64rem);
+$step--1: clamp(0.75rem, calc(0.62rem + 0.43vw), 1.13rem);
+$step-0: clamp(0.85rem, calc(0.56rem + 0.63vw), 1.31rem);
+$step-1: clamp(1.17rem, calc(1.04rem + 0.66vw), 1.83rem);
+$step-2: clamp(1.37rem, calc(1.11rem + 1.30vw), 2.67rem);
+$step-3: clamp(1.71rem, calc(1.52rem + 0.96vw), 2.66rem);
+$step-4: clamp(2.14rem, calc(2.04rem + 0.47vw), 2.44rem);
+$step-5: clamp(1.13rem, calc(-0.02rem + 5.74vw), 6.87rem);
+
+// space
+
+$space-2xs: clamp(0.19rem, calc(0.09rem + 0.48vw), 0.50rem);
+$space-xs: clamp(0.38rem, calc(0.26rem + 0.57vw), 0.75rem);
+$space-s: clamp(0.56rem, calc(0.43rem + 0.67vw), 1.00rem);
+$space-m: clamp(0.75rem, calc(0.52rem + 1.15vw), 1.50rem);
+$space-l: clamp(1.13rem, calc(0.86rem + 1.34vw), 2.00rem);
+$space-xl: clamp(1.50rem, calc(1.04rem + 2.29vw), 3.00rem);
+$space-2xl: clamp(1.13rem, calc(0.15rem + 4.88vw), 6.00rem);
+$space-3xl: clamp(3.00rem, calc(2.08rem + 4.59vw), 6.00rem);
+$title: clamp(1.91rem, calc(0.40rem + 7.56vw), 9.47rem);
+
+
+$h1-size: $title;

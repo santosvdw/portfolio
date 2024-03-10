@@ -1,0 +1,10 @@
+@use '../01-usables/usables' as *;
+
+#projects {
+    // background-color: rgba(255, 0, 0, 0.356);
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}

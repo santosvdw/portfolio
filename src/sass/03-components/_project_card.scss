@@ -1,0 +1,112 @@
+@use '../01-usables/usables' as *;
+
+
+
+.project-card {
+    width: 30%;
+    max-width: 340px;
+    min-width: 240px;
+    margin-bottom: $space-xl;
+    .card {
+        width: 100%;
+        background-color: $grey;
+        height: 350px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .card-img{
+            width: 100%;
+            height: 45%;
+            display: flex;
+            justify-content: center;
+            img {
+                height: 100%;
+            }
+        }
+
+        .card-text {
+            width: 90%;
+            margin: 0 auto;
+            position: relative;
+            .card-title {
+                h5 {
+                    font-size: $step-3;
+                    margin-top: $space-xs;
+                }
+            }
+
+            .card-desc {
+                p {
+                    height: calc($step--1 * 1.1 * 5);
+                    max-height: calc($step--1 * 1.1 * 5);
+                    margin-top: $space-xs;
+                    font-size: calc($step--1 * 1.1);
+                }
+            }
+            
+            .card-tags {
+                display: flex;
+                flex-flow: row wrap;
+                align-self: flex-end;
+                gap: $space-xs;
+                position: absolute;
+                top: 105%;
+                p {
+                    text-transform: lowercase;
+                    width: min-content;
+                    border-radius: 2px;
+                    padding: 2px 4px;
+                    font-size: $step-0;
+                    
+                    &.lang-tag {
+                        background-color: $secondary-clr;
+                    }
+                    
+                    &.topic-tag {
+                        background-color: $secondary-clr;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .project-links {
+        margin-top: $space-s;
+        display: flex;
+        justify-content: center;
+        gap: $space-s;
+        
+        i {
+            font-size: $step-1;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .card-tags {
+        margin-top: $space-s;
+        position: relative;
+        top: calc($space-l * -0.5);
+    }
+}
+@media screen and (min-width: 900px) {
+    .project-card .card {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .project-card .card {
+        height: 425px;
+    }
+}
+@media screen and (min-width: 1650px) {
+    .project-card .card {
+        height: 450px;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .project-card .card {
+        height: 475px;
+    }
+}

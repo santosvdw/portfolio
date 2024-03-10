@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQJWQ95PRF"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-YQJWQ95PRF');
+        </script>
+        <meta charset="UTF-8" />
+        <!-- <link rel="icon" href="favicon.png" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+
+        <!-- Primary Meta Tags -->
+        <title>Portfolio | Santos van der Wansem</title>
+        <meta name="title" content="Portfolio | Santos van der Wansem" />
+        <meta name="description" content="Webdevelopment portofolio van Santos van der Wansem" />
+
+        <link rel="stylesheet" href="css/index.css" />
+        <script src="js/index.js" type="module" defer></script>
+    </head>
+    <body>
+        <div class="App">
+            <div class="wrapper">
+                <div id="overlay-left">
+                    <a target="_blank" href="https://github.com/santosvdw" rel="noreferrer"><i class="icon bi bi-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/santos-van-der-wansem-404007203/" rel="noreferrer"><i class="icon bi bi-linkedin"></i></a>
+                    <a target="_blank" href="mailto:srrvdwansem@gmail.com" rel="noreferrer"><i class="icon bi bi-envelope-fill"></i></a>
+                </div>
+                <main>
+                    <nav>
+                        <ul>
+                            <li><a href="#abt-me">over mij</a></li>
+                            <li><a href="#projects">projecten</a></li>
+                            <li><a href="#footer">contact</a></li>
+                            <li><a href="./assets/CV.pdf" class="underline" download="CV.pdf">mijn cv</a></li>
+                        </ul>
+                    </nav>
+                    <header>
+                        <ul class="header">
+                            <li>
+                                <h1>Santos</h1>
+                            </li>
+                            <li>
+                                <h1>van der</h1>
+                            </li>
+                            <li>
+                                <h1>Wansem</h1>
+                            </li>
+                        </ul>
+                        <div class="tags" id="header-tags"></div>
+                    </header>
+                    <section id="abt-me">
+                        <div class="code">
+                            <ul id="js">
+                                <li><span class="red">const</span> ik <span class="purple">= &#123;</span></li>
+                                <li class="indent"><span class="dark-blue">voornaam</span>: <span class="light-blue">"Santos"</span>,</li>
+                                <li class="indent">
+                                    <span class="dark-blue">leeftijd</span>: <span class="red">new</span> <span class="orange">Date</span>().<span class="purple">getFullYear</span>() -
+                                    <span class="light-blue birth_year_js">{(new Date().getMonth() >= 6 ? 2007 : 2008)}</span>,
+                                </li>
+                                <li class="indent">
+                                    <span class="dark-blue">opleiding</span>: &#91;<span class="light-blue">"VWO 6"</span>, <span class="light-blue">"OSG West-Friesland"</span>&#93;,
+                                </li>
+                                <li class="indent">
+                                    <span class="dark-blue">hobbys</span>: &#91;<span class="light-blue">"muziek luisteren"</span>, <span class="light-blue">"programmeren"</span>,
+                                    <span class="light-blue">"lezen"</span>, <span class="light-blue">"bakken"</span>&#93;,
+                                </li>
+                                <li class="indent"><span class="dark-blue">stad</span>: <span class="light-blue">"Hoorn"</span>,</li>
+                                <li>
+                                    <span class="purple">&#125;</span>
+                                </li>
+                                <li><br /></li>
+                                <li>
+                                    <span class="red">const </span><span class="purple">&#123;</span>voornaam, leeftijd, opleiding, hobbys, stad<span class="purple">&#125;</span>
+                                    <span class="light-blue">=</span> ik
+                                </li>
+                                <li><br /></li>
+                                <li>
+                                    <span class="red">function </span><span class="purple">voorstellen</span><span class="purple">(</span>naam, leeftijd, opleiding, hobbys, stad<span class="purple"
+                                        >) &#123;</span
+                                    >
+                                </li>
+                                <li class="indent">
+                                    console.<span class="purple">log</span>(<span class="light-blue">`Hoi! Ik ben </span>$&#123;naam&#125;<span class="light-blue"> en ik ben </span
+                                    >$&#123;leeftijd&#125;<span class="light-blue"> jaar oud. Ik zit in </span>$&#123;opleiding&#91;0&#93;&#125;<span class="light-blue"> op het </span
+                                    >$&#123;opleiding&#91;1&#93;&#125;<span class="light-blue"> in </span>$&#123;stad&#125;<span class="light-blue">. Mijn hobby's zijn onder andere </span
+                                    >$&#123;hobbys&#91;0&#93;&#125;<span class="light-blue">, </span>$&#123;hobbys&#91;1&#93;&#125;<span class="light-blue">,</span> $&#123;hobbys&#91;2&#93;&#125;<span
+                                        class="light-blue"
+                                    >
+                                        en </span
+                                    >$&#123;hobbys&#91;3&#93;&#125;<span class="light-blue">. Leuk je te ontmoeten!`</span>)
+                                </li>
+                                <li>
+                                    <span class="purple">&#125;</span>
+                                </li>
+                                <li><br /></li>
+                                <li><span class="purple">voorstellen</span><span class="purple">(</span>voornaam, leeftijd, opleiding, hobbys, stad<span class="purple">)</span></li>
+                            </ul>
+                            <ul id="console">
+                                <li>
+                                    <span class="dark-blue"
+                                        >Hoi! Ik ben Santos en ik ben <span class="age"></span> jaar oud. Ik zit in VWO 6 op het OSG West-Friesland in Hoorn. Mijn hobby's zijn onder andere muziek
+                                        luisteren, programmeren, lezen en bakken. Leuk je te ontmoeten!</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="projects"></section>
+                </main>
+                <div id="overlay-right">
+                    <div className="lin-bg"></div>
+                    <p>
+                        middelbare scholier - programmeernerd - mitski lover - sass fanboy - middelbare scholier - programmeernerd - mitski lover - sass fanboy - middelbare scholier - programmeernerd
+                        - mitski lover - sass fanboy - middelbare scholier - programmeernerd - mitski lover - sass fanboy - middelbare scholier - programmeernerd - mitski lover - sass fanboy -
+                        middelbare scholier - programmeernerd - mitski lover - sass fanboy - middelbare scholier - programmeernerd - mitski lover - sass fanboy - middelbare scholier - programmeernerd
+                        - mitski lover - sass fanboy -
+                    </p>
+                    <div className="lin-bg"></div>
+                </div>
+            </div>
+            <footer id="footer">
+                <div class="footer-content">
+                    <p id="mail">Wilt u graag contact met me opnemen? Stuur me een <a href="mailto:srrvdwansem@gmail.com">mailtje</a>.</p>
+                    <p>Santos van der Wansem &copy; <span class="year_js"></span></p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

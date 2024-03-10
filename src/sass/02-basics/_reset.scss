@@ -1,0 +1,97 @@
+@use '../01-usables/variables' as *;
+// reset
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background-color: $tertiary-clr;
+    color: $white;
+}
+
+body {
+    background-color: $bg-color;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+main {
+    width: 70vw;
+}
+
+a {
+    color: $secondary-clr;
+    font-weight: 400;
+
+    &:hover {
+        color: $tertiary-clr;
+    }
+}
+
+
+//
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $secondary-clr;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+//@at-root
+
+#blue {
+    background-color: #0267C1;
+}
+
+#red {
+    background-color: #cf2114;
+}
+
+#yellow {
+    background-color: #FA9500;
+}
+
+#purple {
+    background-color: #4f5d95;
+}
+
+#grey {
+    background-color: #555555;
+}
+
+#orange {
+    background-color: #DA5B0B;
+}
+
+#pink {
+    background-color: #ff69b4;
+}

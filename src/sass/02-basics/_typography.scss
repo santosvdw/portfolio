@@ -1,0 +1,46 @@
+@use '../01-usables/variables' as *;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Open Sans, Helvetica, arial, sans-serif;
+}
+
+h1 {
+    font-size: $h1-size;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: $step-5;
+}
+
+h3 {
+    font-size: $step-4;
+}
+
+h4 {
+    font-size: $step-3;
+}
+
+h5 {
+    font-size: $step-2;
+}
+
+h6 {
+    font-size: $step-1;
+}
+
+body {
+    color: $white;
+}
+
+body,
+li,
+a {
+    font-family: inter, arial, sans-serif;
+    font-size: calc($step-0 * 1.1);
+}

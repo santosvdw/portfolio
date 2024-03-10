@@ -1,0 +1,55 @@
+@use '../01-usables/usables' as *;
+
+#abt-me {
+    margin-top: $space-3xl;
+    li {font-family: DM mono, monospace;}
+}
+
+.code ul {
+    background-color: $grey;
+    border-radius: 15px;
+    padding: $space-m $space-l;
+    list-style: none;
+
+    &#console {
+        margin-top: $space-m;
+    }
+
+    li {
+        max-width: 98%;
+        font-size: $step-0;
+        line-height: 1.3;
+    }
+
+    
+}
+
+
+.purple {
+    color: #D2A8FF;
+}
+
+.light-blue {
+    color: #A5D6FF;
+}
+
+.dark-blue {
+    color: #84c6ff;
+}
+
+.green {
+    color: rgb(97, 255, 166);
+}
+
+.orange {
+    color: #FF8730;
+}
+
+.red {
+    color: #ff3030;
+}
+
+.indent {
+    margin-inline-start: $space-m;
+}
+
