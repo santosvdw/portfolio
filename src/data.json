@@ -27,7 +27,7 @@
             "document": true,
             "beschrijving": "Onderzoek naar kunstmatige intelligentie en haar invloed op de zorg.",
             "tags": ["python", "ai", "bioinformatica"],
-            "image": "https://github.com/santosvdw/matsuya/blob/main/preview.png?raw=true"
+            "image": "https://github.com/santosvdw/portfolio/blob/main/src/assets/KI.png?raw=true"
         },
         "stusa": {
             "naam": "Stusa",
@@ -36,7 +36,7 @@
             "beschrijving": "Fullstack webapplicatie waar studenten oefentoetsen kunnen uitwisselen.",
             "tags": ["php", "laravel", "full-stack"],
             "document": false,
-            "image": "https://github.com/santosvdw/matsuya/blob/main/preview.png?raw=true"
+            "image": "https://github.com/santosvdw/portfolio/blob/main/src/assets/Samenvattingen.png?raw=true"
         }
     }
 }
