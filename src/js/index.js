@@ -68,14 +68,16 @@ function addCard(project) {
 
     let urlIcon = '';
 
-    if (project[1].document) {
-        urlIcon = `<a href='${project[1].url}' target='_blank' rel='noreferrer'>
+    if (project[1].url !== '') {
+        if (project[1].document) {
+            urlIcon = `<a href='${project[1].url}' target='_blank' rel='noreferrer'>
             <i class='bi bi-file-earmark-text'></i>
         </a>`;
-    } else {
-        urlIcon = `<a href='${project[1].url}' target='_blank' rel='noreferrer'>
+        } else {
+            urlIcon = `<a href='${project[1].url}' target='_blank' rel='noreferrer'>
             <i class='bi bi-box-arrow-up-right'></i>
         </a>`;
+        }
     }
 
     let githubIcon = '';

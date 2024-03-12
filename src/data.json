@@ -31,7 +31,7 @@
         },
         "stusa": {
             "naam": "Stusa",
-            "url": "https://stusa.santosvdw.nl",
+            "url": "",
             "github": "https://github.com/santosvdw/stusa",
             "beschrijving": "Fullstack webapplicatie waar studenten oefentoetsen kunnen uitwisselen.",
             "tags": ["php", "laravel", "full-stack"],
