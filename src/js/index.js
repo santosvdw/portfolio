@@ -88,11 +88,14 @@ function addCard(project) {
             </a>`;
     }
 
+    let tag_1 = '';
+    let tag_2 = '';
+
     if (project[1].tags[1]) {
-        const tag_1 = project[1].tags[1];
+        tag_1 = project[1].tags[1];
     }
     if (project[1].tags[2]) {
-        const tag_2 = `, ${project[1].tags[2]}`;
+        tag_2 = `, ${project[1].tags[2]}`;
     }
 
     projectsElement.innerHTML += `<section class='project-card' id='${project[0]}_card'>
