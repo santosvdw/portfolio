@@ -37,6 +37,15 @@
             "tags": ["php", "laravel", "full-stack"],
             "document": false,
             "image": "https://github.com/santosvdw/portfolio/blob/main/src/assets/Samenvattingen.png?raw=true"
+        },
+        "epidemic-model": {
+            "naam": "Epidemisch model",
+            "url": "https://github.com/santosvdw/epidemic-model/blob/main/INF%20verslag%20-%20Santos%20V6D.pdf?raw=true",
+            "github": "https://github.com/santosvdw/epidemic-model",
+            "beschrijving": "Een weergave van virusverspreiding in netlogo. Door verschillende aanpasbare settings is het toepasbaar veel verschillende virussen.",
+            "tags": ["netlogo", "epidemiologie", "sir-model"],
+            "document": true,
+            "image": "https://github.com/santosvdw/portfolio/blob/main/src/assets/epidemic-model.png?raw=true"
         }
     }
 }
