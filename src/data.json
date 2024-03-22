@@ -43,7 +43,7 @@
             "url": "https://github.com/santosvdw/epidemic-model/blob/main/INF%20verslag%20-%20Santos%20V6D.pdf?raw=true",
             "github": "https://github.com/santosvdw/epidemic-model",
             "beschrijving": "Een weergave van virusverspreiding in netlogo volgens het SIR-model.",
-            "tags": ["netlogo", "epidemiologie", "sir-model"],
+            "tags": ["netlogo", "epidemiologie"],
             "document": true,
             "image": "https://github.com/santosvdw/portfolio/blob/main/src/assets/epidemicmodel.png?raw=true"
         }
