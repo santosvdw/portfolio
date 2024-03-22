@@ -88,6 +88,13 @@ function addCard(project) {
             </a>`;
     }
 
+    if (project[1].tags[1]) {
+        const tag_1 = project[1].tags[1];
+    }
+    if (project[1].tags[2]) {
+        const tag_2 = project[1].tags[2];
+    }
+
     projectsElement.innerHTML += `<section class='project-card' id='${project[0]}_card'>
         <div class='card'>
             <div class='card-img'>
@@ -104,8 +111,8 @@ function addCard(project) {
                     <p class='lang-tag' id='${color}'>
                         ${project[1].tags[0]}
                     </p>
-                    ${project[1].tags[1]},
-                    ${project[1].tags[2]}
+                    ${tag_1},
+                    ${tag_2}
                 </span>
             </div>
         </div>
