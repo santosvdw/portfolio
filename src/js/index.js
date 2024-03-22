@@ -92,7 +92,7 @@ function addCard(project) {
         const tag_1 = project[1].tags[1];
     }
     if (project[1].tags[2]) {
-        const tag_2 = project[1].tags[2];
+        const tag_2 = `, ${project[1].tags[2]}`;
     }
 
     projectsElement.innerHTML += `<section class='project-card' id='${project[0]}_card'>
@@ -111,8 +111,7 @@ function addCard(project) {
                     <p class='lang-tag' id='${color}'>
                         ${project[1].tags[0]}
                     </p>
-                    ${tag_1},
-                    ${tag_2}
+                    ${tag_1}${tag_2}
                 </span>
             </div>
         </div>
