@@ -1,7 +1,7 @@
 import data from '../data.json' assert { type: 'json' };
 
 const year = new Date().getFullYear();
-const birthYear = new Date().getMonth() >= 5 ? 2007 : 2008;
+const birthYear = new Date().getMonth() >= 6 ? 2007 : 2008;
 const age = year - birthYear;
 
 document.querySelector('.year_js').innerHTML = `${year}`;
