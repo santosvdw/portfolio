@@ -7,7 +7,7 @@ document.querySelector('.birth_year_js').innerHTML = `${birthYear}`;
 document.querySelector('.age').innerHTML = `${age}`;
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('https://github.com/santosvdw/portfolio/blob/main/src%2Fdata.json')
+    fetch('https://raw.githubusercontent.com/santosvdw/portfolio/main/src/data.json')
         .then(response => response.json())
         .then(data => {
 const stack = data.info.stack;
