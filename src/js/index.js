@@ -1,5 +1,3 @@
-import data from '../data.json' assert { type: 'json' };
-
 const year = new Date().getFullYear();
 const birthYear = new Date().getMonth() >= 5 ? 2007 : 2008;
 const age = year - birthYear;
@@ -8,6 +6,10 @@ document.querySelector('.year_js').innerHTML = `${year}`;
 document.querySelector('.birth_year_js').innerHTML = `${birthYear}`;
 document.querySelector('.age').innerHTML = `${age}`;
 
+document.addEventListener("DOMContentLoaded", function () {
+    fetch('../data.json')
+        .then(response => response.json())
+        .then(data => {
 const stack = data.info.stack;
 const stackElement = document.querySelector('#header-tags');
 
@@ -126,3 +128,6 @@ function addCard(project) {
 }
 
 objectMap(projects);
+})
+        .catch(error => console.error("Error fetching JSON data:", error));
+});
