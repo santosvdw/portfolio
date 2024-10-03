@@ -8,7 +8,7 @@
         "languages": ["Dutch", "English", "Spanish"],
         "hobbies": ["programmeren", "muziek luisteren", "lezen", "bakken"],
         "opleiding": ["VWO 6", "OSG West-Friesland", "het OSG West-Friesland", "Hoorn", "6"],
-        "stack": ["php", "laravel", "javascript", "html", "css", "python", "sql", "scss"]
+        "stack": ["php", "laravel", "javascript", "html", "css", "python", "sql", "scss", "c"]
     },
     "projects": {
         "matsuya": {
