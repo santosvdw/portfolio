@@ -3,11 +3,11 @@
     "email": "srrvdwansem@gmail.com",
     "info": {
         "name": "Santos van der Wansem",
-        "age": 16,
+        "age": 17,
         "location": "Netherlands",
         "languages": ["Dutch", "English", "Spanish"],
         "hobbies": ["programmeren", "muziek luisteren", "lezen", "bakken"],
-        "opleiding": ["VWO 6", "OSG West-Friesland", "het OSG West-Friesland", "Hoorn", "6"],
+        "opleiding": ["BSc Informatica", "Universiteit van Amsterdam"],
         "stack": ["php", "laravel", "javascript", "html", "css", "python", "sql", "scss", "c"]
     },
     "projects": {
