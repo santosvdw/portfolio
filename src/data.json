@@ -29,6 +29,15 @@
             "tags": ["python", "ai", "bioinformatica"],
             "image": "https://github.com/santosvdw/portfolio/blob/main/src/assets/KI.png?raw=true"
         },
+        "al_medina": {
+            "naam": "Al Medina",
+            "url": "",
+            "github": "https://github.com/santosvdw/al_medina",
+            "beschrijving": "[WIP] Een full-stack responsive website voor een cupping kliniek in Purmerend",
+            "document": false,
+            "tags": ["php", "laravel", "webdesign"],
+            "image": "https://raw.githubusercontent.com/santosvdw/al_medina/refs/heads/main/preview.png"
+        },
         "stusa": {
             "naam": "Stusa",
             "url": "",
