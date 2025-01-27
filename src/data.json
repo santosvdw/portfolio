@@ -31,9 +31,9 @@
         },
         "al_medina": {
             "naam": "Al Medina",
-            "url": "",
+            "url": "https://cuppingalmedina.nl/",
             "github": "https://github.com/santosvdw/al_medina",
-            "beschrijving": "[WIP] Een full-stack responsive website voor een cupping kliniek in Purmerend",
+            "beschrijving": "Een full-stack responsive website voor een cupping kliniek in Purmerend",
             "document": false,
             "tags": ["php", "laravel", "webdesign"],
             "image": "https://raw.githubusercontent.com/santosvdw/al_medina/refs/heads/main/preview.png"
