@@ -424,8 +424,8 @@ header .tags .header-tag {
 }
 
 footer {
-  margin-top: clamp(3rem, 2.08rem + 4.59vw, 6rem);
-  background-color: #1E1E1E;
+  border-top: 1px solid #1E1E1E;
+  background-color: #FFFFFF;
   width: 100vw;
   position: absolute;
   z-index: 2000;
@@ -437,9 +437,10 @@ footer .footer-content {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  color: #1E1E1E;
 }
 footer .footer-content a {
-  color: #FFFFFF;
+  color: #1E1E1E;
   text-underline-offset: 3px;
 }
 footer .footer-content a:hover {
@@ -449,4 +450,25 @@ footer .footer-content a:hover {
   footer .footer-content p#mail {
     margin-bottom: clamp(0.38rem, 0.26rem + 0.57vw, 0.75rem);
   }
+}
+
+#transition-top, #transition-bottom {
+  display: block;
+  width: 100vw;
+  height: 50vh;
+  z-index: 2500;
+}
+#transition-top {
+  background: #6096BA;
+  background: -webkit-linear-gradient(180deg, rgba(91, 140, 163, 0) 0%, rgba(91, 140, 163, 0) 10%, rgba(91, 140, 163, 0.33) 51%, #6096BA 100%);
+  background: -moz-linear-gradient(180deg, rgba(91, 140, 163, 0) 0%, rgba(91, 140, 163, 0) 10%, rgba(91, 140, 163, 0.33) 51%, #6096BA 100%);
+  background: linear-gradient(180deg, rgba(91, 140, 163, 0) 0%, rgba(91, 140, 163, 0) 10%, rgba(91, 140, 163, 0.33) 51%, #6096BA 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5B8CA3", endColorstr="#5B8CA3", GradientType=0);
+}
+#transition-bottom {
+  background: #6096BA;
+  background: -webkit-linear-gradient(180deg, #6096BA 0%, rgb(255, 255, 255) 100%);
+  background: -moz-linear-gradient(180deg, #6096BA 0%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(180deg, #6096BA 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5B8CA3", endColorstr="#FFFFFF", GradientType=0);
 }

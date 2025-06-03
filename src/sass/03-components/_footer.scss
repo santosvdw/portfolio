@@ -1,8 +1,9 @@
 @use '../01-usables/usables' as *;
 
 footer {
-    margin-top: $space-3xl;
-    background-color: $grey;
+    // margin-top: $space-3xl;
+    border-top: 1px solid $grey;
+    background-color: $white;
     width: 100vw;
     position: absolute;
     z-index: 2000;
@@ -14,11 +15,10 @@ footer {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-
-       
+        color: $grey;
 
         a {
-            color: $white;
+            color: $grey;
             text-underline-offset: 3px;
             &:hover {
                 color: $secondary-clr;
