@@ -132,6 +132,47 @@ a:hover {
   background-color: #ff69b4;
 }
 
+#coming-soon {
+  width: 100vw;
+  display: flex;
+  background-color: white;
+  color: #1E1E1E;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 20vw;
+  gap: clamp(1.13rem, 0.86rem + 1.34vw, 2rem);
+  position: relative;
+  z-index: 2500;
+}
+#coming-soon p,
+#coming-soon li,
+#coming-soon a {
+  font-family: "Gochi Hand", cursive;
+}
+#coming-soon h1 {
+  font-family: "Covered By Your Grace", cursive;
+  text-align: center;
+  line-height: 1;
+}
+#coming-soon h2 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: calc(clamp(1.13rem, -0.02rem + 5.74vw, 6.87rem) * 0.6);
+  text-align: left;
+}
+#coming-soon ul {
+  width: 80%;
+  left: clamp(0.75rem, 0.52rem + 1.15vw, 1.5rem);
+  position: relative;
+}
+#coming-soon ul li {
+  padding-left: clamp(0.56rem, 0.43rem + 0.67vw, 1rem);
+}
+#coming-soon ul li::marker {
+  content: "->";
+  font-family: "Gochi Hand", cursive;
+}
+
 nav {
   width: 100%;
   padding: clamp(1.13rem, 0.15rem + 4.88vw, 6rem) 0;
@@ -399,7 +440,7 @@ header .tags .header-tag {
   background: linear-gradient(270deg, rgba(10, 10, 10, 0) 0%, rgba(10, 10, 10, 0.3) 4%, rgba(10, 10, 10, 0.6) 41%, rgb(10, 10, 10) 66%);
   width: 130px;
   height: 2rem;
-  z-index: 101;
+  z-index: -101;
   rotate: 90deg;
 }
 .App #overlay-right .lin-bg:nth-of-type(1) {
@@ -454,6 +495,7 @@ footer .footer-content a:hover {
 
 #transition-top, #transition-bottom {
   display: block;
+  position: relative;
   width: 100vw;
   height: 50vh;
   z-index: 2500;

@@ -1,0 +1,43 @@
+@use "../01-usables/usables" as *;
+
+#coming-soon {
+  p,
+  li,
+  a {
+    font-family: "Gochi Hand", cursive;
+  }
+  h1 {
+    font-family: "Covered By Your Grace", cursive;
+    text-align: center;
+    line-height: 1;
+  }
+  h2 {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: calc($step-5 * 0.6);
+    text-align: left;
+  }
+  ul {
+    width: 80%;
+    left: $space-m;
+    position: relative;
+    li {
+      padding-left: $space-s;
+      &::marker {
+        content: "->";
+        font-family: "Gochi Hand", cursive;
+      }
+    }
+  }
+  width: 100vw;
+  display: flex;
+  // height: 30vh;
+  background-color: white;
+  color: $grey;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 20vw;
+  gap: $space-l;
+  position: relative;
+  z-index: 2500;
+}
