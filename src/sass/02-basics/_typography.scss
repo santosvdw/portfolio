@@ -44,3 +44,11 @@ a {
     font-family: inter, arial, sans-serif;
     font-size: calc($step-0 * 1.1);
 }
+
+a.green {
+    color: #419E4C;
+
+    &:hover {
+        color: #2f7437;
+    }
+}

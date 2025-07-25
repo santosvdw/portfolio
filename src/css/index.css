@@ -43,6 +43,13 @@ a {
   font-size: calc(clamp(0.85rem, 0.56rem + 0.63vw, 1.31rem) * 1.1);
 }
 
+a.green {
+  color: #419E4C;
+}
+a.green:hover {
+  color: #2f7437;
+}
+
 *,
 *::after,
 *::before {
