@@ -11,6 +11,15 @@
         "stack": ["php", "laravel", "javascript", "html", "css", "python", "sql", "scss", "c"]
     },
     "projects": {
+        "dessing": {
+            "naam": "Dessing",
+            "url": "https://vistraiteurdessing.nl.nl",
+            "github": "https://github.com/santosvdw/dessing",
+            "beschrijving": "Een front-end website voor een winkel in Zwaag",
+            "tags": ["php", "full-stack", "laravel"],
+            "document": false,
+            "image": "https://github.com/santosvdw/portfolio/blob/main/dessing.png?raw=true"
+        },
         "matsuya": {
             "naam": "Matsuya",
             "url": "https://matsuya.nl",
